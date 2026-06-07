@@ -1,13 +1,13 @@
 import { skills } from '../data/resume';
 
 const categoryColors = {
-  'Frontend (Primary)': 'from-violet-500 to-purple-600',
-  'State Management': 'from-blue-500 to-cyan-600',
-  'UI & Design Systems': 'from-pink-500 to-rose-600',
-  'Performance': 'from-amber-500 to-orange-600',
-  'AI & Prompt Engineering': 'from-emerald-500 to-teal-600',
-  'Backend (Supporting)': 'from-indigo-500 to-blue-600',
-  'Testing, Build & DevOps': 'from-slate-400 to-gray-600',
+  'Frontend': 'from-violet-500 to-purple-600',
+  'Backend': 'from-blue-500 to-cyan-600',
+  'Database & Caching': 'from-emerald-500 to-teal-600',
+  'Architecture': 'from-amber-500 to-orange-600',
+  'Testing': 'from-pink-500 to-rose-600',
+  'AI & Tools': 'from-indigo-400 to-violet-600',
+  'Build & DevOps': 'from-slate-400 to-gray-600',
 };
 
 export default function Skills() {

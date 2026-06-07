@@ -1,92 +1,106 @@
 export const personal = {
   name: 'Yashika Agrawal',
-  title: 'Frontend Engineer',
+  title: 'Full Stack Developer',
   email: 'yashikaagr12@gmail.com',
   phone: '+91-8938932161',
   linkedin: 'https://linkedin.com/in/yashika-agrawal',
   github: 'https://github.com/1204yashika',
   summary:
-    'Frontend Engineer with 2+ years of experience building scalable, world-class web applications using React.js, TypeScript, Redux Toolkit, Tailwind CSS, and JavaScript (ES6+). Strong foundation in object-oriented programming, component-based architecture, design systems, and accessibility (a11y / WCAG). Improved Core Web Vitals and reduced page load time by 40% via memoization and code-splitting; cut delivery time by 30% using AI-assisted development workflows (Claude Code, GitHub Copilot) and prompt engineering. Experienced in Agile/Scrum environments with strong cross-functional collaboration and CI/CD delivery practices.',
+    'Full Stack Developer (MERN) with 2+ years of experience designing and shipping end-to-end web applications using React.js, Next.js, Node.js, Express.js, and MongoDB. Equally strong across frontend and backend — building responsive React/Next.js UIs and design systems alongside REST APIs, JWT authentication, RBAC, WebSocket real-time features, and event-driven background workers serving 200+ users across 5 hospitals. Reduced page load time by 40% and cut delivery time by 30% using AI-assisted development (Claude Code, GitHub Copilot). Experienced in Agile/Scrum with CI/CD delivery practices.',
 };
 
 export const skills = [
   {
-    category: 'Frontend (Primary)',
-    items: ['React.js', 'TypeScript', 'JavaScript (ES6+)', 'HTML5', 'CSS3', 'React Hooks', 'Micro-Frontend Architecture', 'Responsive UI', 'Dynamic Forms', 'API Integration', 'Accessibility (a11y, ARIA, WCAG)'],
+    category: 'Frontend',
+    items: ['React.js', 'Next.js (App Router, SSR/SSG/ISR)', 'TypeScript', 'JavaScript (ES6+)', 'Redux Toolkit + RTK Query', 'Zustand', 'Chakra UI', 'Tailwind CSS', 'Storybook', 'Responsive UI', 'UI Design Systems'],
   },
   {
-    category: 'State Management',
-    items: ['Redux', 'Redux Toolkit (RTK)', 'React Query / TanStack Query', 'Zustand', 'Context API'],
+    category: 'Backend',
+    items: ['Node.js', 'Express.js', 'RESTful API Design', 'JWT Auth & Refresh Tokens', 'Role-Based Access Control (RBAC)', 'WebSockets (Socket.io)', 'BullMQ Queues', 'Cron Jobs', 'Background Workers', 'Rate Limiting'],
   },
   {
-    category: 'UI & Design Systems',
-    items: ['Chakra UI', 'Tailwind CSS', 'Storybook', 'Design Tokens', 'Reusable Component Libraries'],
+    category: 'Database & Caching',
+    items: ['MongoDB (Schema Design, Aggregation Pipelines)', 'Redis (Upstash)', 'Data Modeling', 'Caching & Invalidation'],
   },
   {
-    category: 'Performance',
-    items: ['Core Web Vitals (LCP, FID, CLS)', 'Lighthouse Audits', 'Memoization', 'Code-Splitting', 'Lazy Loading', 'Bundle Optimization'],
+    category: 'Architecture',
+    items: ['Layered Architecture (Route → Controller → Service → Repository)', 'Event-Driven Design', 'BFF Pattern', 'Cursor-Based Pagination', 'AWS S3 (Presigned URLs)'],
   },
   {
-    category: 'AI & Prompt Engineering',
-    items: ['Prompt Engineering', 'GPT-based Search', 'AI Output Evaluation', 'Claude Code (Anthropic)', 'GitHub Copilot', 'AI-Assisted Development Workflows'],
+    category: 'Testing',
+    items: ['Jest', 'React Testing Library (RTL)', 'Vitest', 'Playwright (E2E)', 'MSW', 'Unit & Integration Testing'],
   },
   {
-    category: 'Backend (Supporting)',
-    items: ['Node.js', 'Express.js', 'RESTful APIs', 'WebSockets', 'RBAC', 'Cron Jobs', 'MongoDB'],
+    category: 'AI & Tools',
+    items: ['Claude Code (Anthropic)', 'GitHub Copilot', 'Prompt Engineering', 'Postman', 'Swagger / OpenAPI', 'Pino Logging'],
   },
   {
-    category: 'Testing, Build & DevOps',
-    items: ['Jest', 'React Testing Library', 'Vite', 'Webpack', 'Git', 'GitHub Actions (CI/CD)', 'Vercel', 'Agile/Scrum', 'Postman'],
+    category: 'Build & DevOps',
+    items: ['Vite', 'Webpack', 'Git', 'GitHub', 'GitHub Actions (CI/CD)', 'Vercel', 'Railway', 'Agile/Scrum', 'Code Reviews'],
   },
 ];
 
 export const experience = [
   {
-    role: 'Frontend Engineer (Full Stack)',
+    role: 'Full Stack Developer',
     company: 'Unthinkable Solutions',
     location: 'India',
     period: 'Jan 2024 – Present',
     bullets: [
-      'Developed and shipped React.js + TypeScript web components with dynamic forms, full-screen UI workflows, and complex AND/OR/NOT filtering; improved Core Web Vitals (LCP, FID, CLS) and reduced page load time by 40% using useMemo, useCallback, React.memo, code-splitting, and lazy loading.',
-      'Delivered customer-facing features for a platform serving 200+ users across 5 organizations; partnered with Product, Design, and Backend teams in Agile/Scrum sprints with bi-weekly deliverables.',
-      'Built and maintained a UI Design System using Chakra UI, Tailwind CSS, and Storybook with reusable components, design tokens, and accessibility (a11y / WCAG) guidelines; adopted Redux Toolkit (RTK) and React Query / TanStack Query for predictable state and efficient server-state caching.',
-      'Wrote clean, maintainable TypeScript across critical modules, reducing runtime errors; authored unit and component tests with Jest and React Testing Library (RTL); participated in code reviews and mentored junior developers.',
-      'Leveraged prompt engineering with Claude Code and GitHub Copilot for AI-assisted development workflows (reduced delivery time by 30%); contributed to CI/CD pipelines using GitHub Actions and Vercel for automated builds, previews, and deployments.',
-      'Developed supporting RESTful APIs (Node.js, Express.js), WebSocket-based real-time features, and MongoDB aggregation pipelines that auto-generated document-based (Excel) reports for business analytics.',
+      'Designed and built end-to-end features across a React.js frontend and Node.js / Express.js backend; delivered a platform now serving 200+ users across 5 hospitals in Agile/Scrum sprints.',
+      'Engineered JWT-based authentication and Role-Based Access Control (RBAC) for multi-role access (admins, doctors, staff) with secure session and permission management.',
+      'Built RESTful APIs from design to deployment covering CRUD, business logic, and data validation; integrated WebSockets for real-time status updates across the platform.',
+      'Wrote MongoDB aggregation pipelines and scripts to auto-generate Excel reports; contributed to data modeling and schema design across key collections.',
+      'Optimized React.js frontend performance by 40% using useMemo, useCallback, React.memo, lazy loading, and code-splitting; built and maintained a UI Design System with Chakra UI and Storybook, with Jest/RTL test coverage.',
+      'Used Claude Code and GitHub Copilot for AI-assisted development, reducing delivery time by 30% through faster scaffolding, debugging, and code review; contributed to CI/CD pipelines with GitHub Actions.',
     ],
   },
 ];
 
 export const projects = [
   {
-    title: 'Healthcare Management Platform',
+    title: 'Healthcare Management System',
     type: 'Company Project',
-    description: 'Full Stack Web Application',
+    description: 'MERN Full Stack Platform',
+    liveUrl: null,
     bullets: [
-      'Delivered a full-stack web platform for 200+ users across 5 hospitals with dynamic dashboards, appointment scheduling, and role-based access control (RBAC) for admins, doctors, and staff.',
-      'Achieved 40% faster page loads and improved Core Web Vitals via React memoization, code-splitting, and lazy loading; implemented WebSocket-based real-time updates and cron-driven automated document (Excel) report generation.',
+      'Built a MERN stack healthcare platform for 200+ users across 5 hospitals with patient dashboards, appointment scheduling, and JWT + RBAC for admins, doctors, and staff.',
+      'Architected backend APIs and MongoDB schemas end-to-end; achieved 40% faster page loads via React optimizations and real-time updates via WebSockets and cron-based automation.',
     ],
-    tags: ['React.js', 'TypeScript', 'Node.js', 'MongoDB', 'WebSockets', 'RBAC'],
+    tags: ['React.js', 'Node.js', 'Express.js', 'MongoDB', 'WebSockets', 'JWT', 'RBAC'],
+  },
+  {
+    title: 'NotifyFlow',
+    type: 'Full Stack',
+    description: 'Task Management & Notification Platform',
+    liveUrl: '#',
+    bullets: [
+      'Architected a production-grade backend with Node.js, TypeScript, Express, MongoDB, Redis (Upstash), Socket.io, and BullMQ in a layered Route → Controller → Service → Repository pattern.',
+      'Implemented JWT auth with refresh tokens, RBAC, cursor-based pagination, Redis caching, rate limiting, BullMQ email queues, and S3 presigned uploads. Deployed backend on Railway and React + RTK Query frontend on Vercel via CI/CD.',
+    ],
+    tags: ['React.js', 'Node.js', 'TypeScript', 'MongoDB', 'Redis', 'Socket.io', 'BullMQ', 'Playwright'],
+  },
+  {
+    title: 'NextCart',
+    type: 'Frontend',
+    description: 'Next.js E-Commerce Storefront',
+    liveUrl: '#',
+    bullets: [
+      'Built a production-grade storefront with Next.js 16 App Router using deliberate per-route rendering — ISR (homepage, product details), SSR (search), and CSR (cart) — with typed Route Handlers (BFF).',
+      'Implemented all four Next.js caching layers, tag-based revalidation, and Zustand cart state with hydration-safe persistence.',
+    ],
+    tags: ['Next.js 16', 'TypeScript', 'App Router', 'ISR/SSR/CSR', 'Zustand', 'Tailwind CSS'],
   },
   {
     title: 'Netflix-GPT',
     type: 'Personal Project',
     description: 'AI-Powered Movie Search Application',
+    liveUrl: null,
     bullets: [
-      'Built a Netflix-style React app with GPT-powered semantic search that returns AI-curated movie recommendations from natural language queries; applied prompt engineering techniques to improve relevance and consistency of AI outputs.',
-      'Implemented Redux Toolkit for global auth and browse state; optimized re-renders using React.memo and selector patterns. Iterated on prompts and evaluated outputs using structured feedback loops to refine accuracy.',
+      'Built a full-stack app with GPT-powered movie search, user authentication, and personalized recommendations; integrated the OpenAI API on the backend with rate limiting and error handling.',
+      'Used Redux Toolkit for global state and prompt engineering with structured feedback loops to improve output relevance.',
     ],
-    tags: ['React.js', 'Redux Toolkit', 'GPT API', 'Prompt Engineering', 'Firebase'],
-  },
-  {
-    title: 'Social Media Learning App',
-    type: 'Personal Project',
-    description: 'React Component Library & REST APIs',
-    bullets: [
-      'Built a full-stack social platform with JWT-based authentication, post creation, likes, follows, and a dynamic news feed powered by REST APIs.',
-      'Designed a fully reusable React component library (cards, modals, forms) using Chakra UI and Tailwind CSS with design tokens and theming for a consistent, accessible (a11y / WCAG) UI.',
-    ],
-    tags: ['React.js', 'Chakra UI', 'Tailwind CSS', 'JWT', 'REST APIs', 'Node.js'],
+    tags: ['React.js', 'Redux Toolkit', 'OpenAI API', 'Prompt Engineering', 'Firebase'],
   },
 ];
 

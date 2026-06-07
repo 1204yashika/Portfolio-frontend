@@ -38,10 +38,10 @@ export default function Hero() {
         </h2>
 
         <p className="text-gray-400 text-base md:text-lg max-w-2xl mx-auto mb-10 leading-relaxed">
-          Building scalable web apps with{' '}
-          <span className="text-violet-300 font-medium">React.js</span>,{' '}
-          <span className="text-cyan-300 font-medium">TypeScript</span> &{' '}
-          <span className="text-violet-300 font-medium">Redux Toolkit</span>. Reduced page load time by{' '}
+          Building end-to-end web applications with{' '}
+          <span className="text-violet-300 font-medium">React.js / Next.js</span>,{' '}
+          <span className="text-cyan-300 font-medium">Node.js / Express</span> &{' '}
+          <span className="text-violet-300 font-medium">MongoDB</span>. Reduced page load time by{' '}
           <span className="text-white font-semibold">40%</span> and delivery time by{' '}
           <span className="text-white font-semibold">30%</span> using AI-assisted workflows.
         </p>

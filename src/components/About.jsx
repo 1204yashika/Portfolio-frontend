@@ -4,7 +4,7 @@ const stats = [
   { value: '2+', label: 'Years Experience' },
   { value: '200+', label: 'Users Served' },
   { value: '40%', label: 'Faster Page Loads' },
-  { value: '30%', label: 'Delivery Time Cut' },
+  { value: '30%', label: 'Faster Delivery' },
 ];
 
 export default function About() {
@@ -16,7 +16,7 @@ export default function About() {
           <div className="flex-1">
             <p className="text-violet-400 text-sm font-medium tracking-widest uppercase mb-3">About Me</p>
             <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-              Crafting high-performance<br />user experiences
+              Building full-stack products<br />end to end
             </h2>
             <p className="text-gray-400 leading-relaxed mb-6">
               {personal.summary}
