@@ -102,6 +102,17 @@ export const projects = [
     ],
     tags: ['React.js', 'Redux Toolkit', 'OpenAI API', 'Prompt Engineering', 'Firebase'],
   },
+  {
+    title: 'Social Media Learning App',
+    type: 'Personal Project',
+    description: 'React Component Library & REST APIs',
+    liveUrl: null,
+    bullets: [
+      'Built a full-stack social platform with JWT-based authentication, post creation, likes, follows, and a dynamic news feed powered by REST APIs.',
+      'Designed a fully reusable React component library (cards, modals, forms) using Chakra UI and Tailwind CSS with design tokens and theming for a consistent, accessible (a11y / WCAG) UI.',
+    ],
+    tags: ['React.js', 'Chakra UI', 'Tailwind CSS', 'JWT', 'REST APIs', 'Node.js'],
+  },
 ];
 
 export const education = [
