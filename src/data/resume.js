@@ -74,6 +74,7 @@ export const projects = [
     type: 'Full Stack',
     description: 'Task Management & Notification Platform',
     liveUrl: 'https://notify-flow-pi.vercel.app',
+    githubUrl: 'https://github.com/1204yashika/NotifyFlow',
     bullets: [
       'Architected a production-grade backend with Node.js, TypeScript, Express, MongoDB, Redis (Upstash), Socket.io, and BullMQ in a layered Route → Controller → Service → Repository pattern.',
       'Implemented JWT auth with refresh tokens, RBAC, cursor-based pagination, Redis caching, rate limiting, BullMQ email queues, and S3 presigned uploads. Deployed backend on Railway and React + RTK Query frontend on Vercel via CI/CD.',
@@ -85,6 +86,7 @@ export const projects = [
     type: 'Frontend',
     description: 'Next.js E-Commerce Storefront',
     liveUrl: 'https://next-cart-delta.vercel.app/',
+    githubUrl: 'https://github.com/1204yashika/nextCart',
     bullets: [
       'Built a production-grade storefront with Next.js 16 App Router using deliberate per-route rendering — ISR (homepage, product details), SSR (search), and CSR (cart) — with typed Route Handlers (BFF).',
       'Implemented all four Next.js caching layers, tag-based revalidation, and Zustand cart state with hydration-safe persistence.',
@@ -96,6 +98,7 @@ export const projects = [
     type: 'Personal Project',
     description: 'AI-Powered Movie Search Application',
     liveUrl: null,
+    githubUrl: 'https://github.com/1204yashika/netflix-gpt',
     bullets: [
       'Built a full-stack app with GPT-powered movie search, user authentication, and personalized recommendations; integrated the OpenAI API on the backend with rate limiting and error handling.',
       'Used Redux Toolkit for global state and prompt engineering with structured feedback loops to improve output relevance.',
