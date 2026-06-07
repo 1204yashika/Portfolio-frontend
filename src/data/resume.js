@@ -73,7 +73,7 @@ export const projects = [
     title: 'NotifyFlow',
     type: 'Full Stack',
     description: 'Task Management & Notification Platform',
-    liveUrl: '#',
+    liveUrl: 'https://notify-flow-pi.vercel.app',
     bullets: [
       'Architected a production-grade backend with Node.js, TypeScript, Express, MongoDB, Redis (Upstash), Socket.io, and BullMQ in a layered Route → Controller → Service → Repository pattern.',
       'Implemented JWT auth with refresh tokens, RBAC, cursor-based pagination, Redis caching, rate limiting, BullMQ email queues, and S3 presigned uploads. Deployed backend on Railway and React + RTK Query frontend on Vercel via CI/CD.',
@@ -84,7 +84,7 @@ export const projects = [
     title: 'NextCart',
     type: 'Frontend',
     description: 'Next.js E-Commerce Storefront',
-    liveUrl: '#',
+    liveUrl: 'https://next-cart-delta.vercel.app/',
     bullets: [
       'Built a production-grade storefront with Next.js 16 App Router using deliberate per-route rendering — ISR (homepage, product details), SSR (search), and CSR (cart) — with typed Route Handlers (BFF).',
       'Implemented all four Next.js caching layers, tag-based revalidation, and Zustand cart state with hydration-safe persistence.',
