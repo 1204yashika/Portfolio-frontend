@@ -1,0 +1,113 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#0a0a14;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#0f0f24;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#7c3aed;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#06b6d4;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="nameGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ffffff;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#e2e8f0;stop-opacity:1" />
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="40" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
+    </filter>
+  </defs>
+
+  <!-- Background -->
+  <rect width="1200" height="630" fill="url(#bg)" />
+
+  <!-- Ambient glow blobs -->
+  <circle cx="200" cy="200" r="250" fill="#7c3aed" opacity="0.08" filter="url(#glow)" />
+  <circle cx="1050" cy="450" r="200" fill="#06b6d4" opacity="0.07" filter="url(#glow)" />
+
+  <!-- Grid lines -->
+  <g opacity="0.04" stroke="#ffffff" stroke-width="1">
+    <line x1="0" y1="105" x2="1200" y2="105"/>
+    <line x1="0" y1="210" x2="1200" y2="210"/>
+    <line x1="0" y1="315" x2="1200" y2="315"/>
+    <line x1="0" y1="420" x2="1200" y2="420"/>
+    <line x1="0" y1="525" x2="1200" y2="525"/>
+    <line x1="150" y1="0" x2="150" y2="630"/>
+    <line x1="300" y1="0" x2="300" y2="630"/>
+    <line x1="450" y1="0" x2="450" y2="630"/>
+    <line x1="600" y1="0" x2="600" y2="630"/>
+    <line x1="750" y1="0" x2="750" y2="630"/>
+    <line x1="900" y1="0" x2="900" y2="630"/>
+    <line x1="1050" y1="0" x2="1050" y2="630"/>
+  </g>
+
+  <!-- Top accent bar -->
+  <rect x="80" y="80" width="120" height="4" rx="2" fill="url(#accent)" />
+
+  <!-- Available badge -->
+  <rect x="80" y="108" width="180" height="28" rx="14" fill="#7c3aed" opacity="0.15"/>
+  <rect x="80" y="108" width="180" height="28" rx="14" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.4"/>
+  <circle cx="102" cy="122" r="5" fill="#22c55e"/>
+  <text x="115" y="127" font-family="system-ui, sans-serif" font-size="13" fill="#a78bfa" letter-spacing="0.5">Available for hire</text>
+
+  <!-- Name -->
+  <text x="80" y="230" font-family="system-ui, sans-serif" font-size="72" font-weight="700" fill="url(#nameGrad)" letter-spacing="-2">Yashika Agrawal</text>
+
+  <!-- Title -->
+  <text x="80" y="290" font-family="system-ui, sans-serif" font-size="32" font-weight="500" fill="url(#accent)" letter-spacing="0.5">Full Stack Developer (MERN)</text>
+
+  <!-- Divider -->
+  <rect x="80" y="318" width="1040" height="1" fill="#ffffff" opacity="0.08"/>
+
+  <!-- Stats row -->
+  <text x="80" y="370" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#7c3aed">2+</text>
+  <text x="80" y="395" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Years Exp.</text>
+
+  <text x="230" y="370" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#06b6d4">200+</text>
+  <text x="230" y="395" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Users Served</text>
+
+  <text x="410" y="370" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#7c3aed">40%</text>
+  <text x="410" y="395" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Faster Loads</text>
+
+  <text x="580" y="370" font-family="system-ui, sans-serif" font-size="38" font-weight="700" fill="#06b6d4">30%</text>
+  <text x="580" y="395" font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">Faster Delivery</text>
+
+  <!-- Tech tags -->
+  <g font-family="system-ui, sans-serif" font-size="14" fill="#94a3b8">
+    <!-- Tag 1: React.js -->
+    <rect x="80" y="440" width="90" height="30" rx="15" fill="#7c3aed" opacity="0.12"/>
+    <rect x="80" y="440" width="90" height="30" rx="15" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <text x="125" y="460" text-anchor="middle" fill="#a78bfa">React.js</text>
+
+    <!-- Tag 2: Next.js -->
+    <rect x="182" y="440" width="80" height="30" rx="15" fill="#06b6d4" opacity="0.10"/>
+    <rect x="182" y="440" width="80" height="30" rx="15" fill="none" stroke="#06b6d4" stroke-width="1" opacity="0.3"/>
+    <text x="222" y="460" text-anchor="middle" fill="#67e8f9">Next.js</text>
+
+    <!-- Tag 3: Node.js -->
+    <rect x="274" y="440" width="82" height="30" rx="15" fill="#22c55e" opacity="0.10"/>
+    <rect x="274" y="440" width="82" height="30" rx="15" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.3"/>
+    <text x="315" y="460" text-anchor="middle" fill="#86efac">Node.js</text>
+
+    <!-- Tag 4: TypeScript -->
+    <rect x="368" y="440" width="100" height="30" rx="15" fill="#7c3aed" opacity="0.12"/>
+    <rect x="368" y="440" width="100" height="30" rx="15" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <text x="418" y="460" text-anchor="middle" fill="#a78bfa">TypeScript</text>
+
+    <!-- Tag 5: MongoDB -->
+    <rect x="480" y="440" width="94" height="30" rx="15" fill="#22c55e" opacity="0.10"/>
+    <rect x="480" y="440" width="94" height="30" rx="15" fill="none" stroke="#22c55e" stroke-width="1" opacity="0.3"/>
+    <text x="527" y="460" text-anchor="middle" fill="#86efac">MongoDB</text>
+
+    <!-- Tag 6: Redux -->
+    <rect x="586" y="440" width="80" height="30" rx="15" fill="#7c3aed" opacity="0.12"/>
+    <rect x="586" y="440" width="80" height="30" rx="15" fill="none" stroke="#7c3aed" stroke-width="1" opacity="0.3"/>
+    <text x="626" y="460" text-anchor="middle" fill="#a78bfa">Redux</text>
+  </g>
+
+  <!-- URL at bottom -->
+  <text x="80" y="570" font-family="system-ui, sans-serif" font-size="16" fill="#475569">portfolio-frontend-three-inky.vercel.app</text>
+
+  <!-- Right side decorative bracket -->
+  <text x="1080" y="340" font-family="monospace" font-size="220" fill="#7c3aed" opacity="0.04" font-weight="700">{ }</text>
+</svg>
